@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Po-Hsuan Huang",
+  title: "",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Welcome to my professional journey! I'm Po-Hsuan Huang, a Machine Learning Engineer with a deep-seated passion for advancing artificial intelligence and machine learning technologies. With a rich background in computer vision, deep learning, and AI research, my career is dedicated to bridging the gap between cutting-edge technology and practical applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1sljmMYY7NEuTxb17L1qsvMBKVMB1vbgc/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Po-Hsuan-Huang",
+  linkedin: "https://www.linkedin.com/in/pohsuanhuang/",
+  gmail: "pohsuanh@usc.edu",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,16 +45,19 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Professional Summary",
+  subTitle: "Compuer Vision | Brain Computer Interface | Medical Machine Lenaring ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Armed with a PhD in Computer Vision and Machine Learning. \
+      My expertise spans across Python, TensorFlow, PyTorch, and a variety of data science tools, \
+       honed through significant achievements in academia and industry alike. Beyond technical prowess, \
+       my collaborative spirit and proactive approach have guided me through complex technological landscapes, \
+       making me a valued partner in any tech-driven initiative. Whethein the tech space or seeking insights on \
+       leveraging AI for organizational growth, let's explore how we can drive the future of work together."
     )
+
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,39 +65,39 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
+      skillName: "Pytorch",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Tensorflow",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
+      skillName: "OpenCV",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Scikit-learn",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "SQL",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
+      skillName: "Hugging Face",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
-      skillName: "npm",
+      skillName: "Machine Learning",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "Neuroscience",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -105,11 +105,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Biology",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
+      skillName: "Physics",
       fontAwesomeClassname: "fab fa-python"
     },
     {
@@ -126,23 +126,32 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Southern California",
+      logo: require("./assets/images/USC.png"),
+      subHeader: "Ph.D of Computational Neuroscence and artificial intelligence",
+      duration: "July 2017 - December 2024",
+      desc: "RANSAC inspired semisupervised learning with application to early-stage detection of rare neurological conditions",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Innovated a robust semi-supervised algorithm, notable for its resilience to incorrect annotations and outliers, and capable of delivering optimal results in real-world data \n",
+        "Designed and Implemented a machine learning pipeline with visual-based features and computer vision pipeline. Achieved optimal results with limited low-quality real-world human annotations.\n",
+        "Contributed to a Generative AI project, focusing on shared-knowledge lifelong learning and continual learning using a multi-head transformer model.\n",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Max Plank International School of Neural Information Processing",
+      logo: require("./assets/images/max_plank.jpeg"),
+      subHeader: "M.S. of Neural Information Processing",
+      duration: "August 2014 - August 2016",
+      desc: "",
+      descBullets: ["Thesis: Exploration of event segmentation using LSTM."]
+    },
+
+    {
+      schoolName: "National Tsing Hua University",
+      logo: require("./assets/images/NTHU.png"),
+      subHeader: "B.S. of Physics",
+      duration: "August 2008 - August 2012",
+      desc: "",
     }
   ]
 };
@@ -153,16 +162,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Deep Learning", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Eye-tracking Interface",
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +183,62 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "AI Research Engineer",
+      company: "Acer",
+      companylogo: require("./assets/images/acer.jpg"),
+      date: "Feb 2017 – Aug 2017",
+      desc: "Achieved Great Accuracy with FASTER-RCNN for Digit Recognition",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+
+        "Utilized Faster R-CNN with TensorFlow for advanced object detection, demonstrating expertise in machine learning algorithms.\n",
+        
+        "Led a critical project focused on digit recognition on marathon bibs, applying the model to a real-world photo dataset with high accuracy.\n",
+
+        "Pioneered a data augmentation strategy using synthesized marathon bibs, creatively manipulating distortions, contamination, shading, and noise to enhance model training.\n",
+
+        "Achieved significant improvements in model performance after training with the synthesized data, showcasing ability to overcome challenging real-world data issues.\n",
+
+        "Demonstrated strong problem-solving and technical skills in adapting machine learning models to practical, real-world applications.\n"
+
+
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Rotation Intern",
+      company: "Werner Reichardt Centre for Integrative Neuroscience",
+      companylogo: require("./assets/images/Werner.png"),
+      date: "Oct 2015 – Jan 2016",
+      desc: "Simulated neural networks of various complexities using the Python-based NEST environment.",
+      descBullets:[
+        "Demonstrated reproducibility of results in NEST, originally developed in MATLAB.",
+        "Exploited multi-threading and cluster-computing features of NEST for enhanced modeling speed."
+      ]
+
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Rotation Intern",
+      company: "NMI TT Pharmaservices",
+      companylogo: require("./assets/images/nmi_tt_pharmaservices_logo.jpeg"),
+      date: "Sep 2015 – Oct 2015",
+      desc: "Theoretical Analysis of the Safety Threshold of Retina Implant",
+      descBullets: [
+        "Evaluated the threshold of electroporation and electrostimulation in retina implants.",
+        "Investigated the safe working zone of electrostimulation for retina implants."
+      ]
+    },
+
+    {
+      role: "Research Assistant",
+      company: "Academia Sinica",
+      companylogo: require("./assets/images/academia_sinica.png"),
+      date: "Oct 2013 – Oct 2014",
+      desc: "Raman-Sepectrascopics | Nanotehcnology | Laboratory Equipment Design",
+      descBullets: [
+        "Assisted in founding a nanotechnology lab from the ground up. Coordinated with vendors and suppliers for the procurement of lab equipment and materials",
+        "Contributed to the development of research protocols and experimental designs",
+        "Gained extensive training in fiber optics, laboratory equipment design, and prototyping with software such as SolidWorks",
+        "Gained hands-on experience in operating precision machinery, acquired skills in reading and interpreting technical blueprints and drawings to execute complex machining tasks"
+      ]
     }
   ]
 };
@@ -212,32 +254,39 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Computer Science Courses Taken",
+  subtitle: "Grauduate Level Courses I took in Computer Science and Machine Learning",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: require("./assets/images/USC.png"),
+      projectName: "SCI 567 Machine Learning",
+      projectSubtitle: "Summer Semester 2018, University of Southern California",
+      projectDesc: "Mastery in machine learning fundamentals, statistical modeling, data preprocessing, algorithm optimization, predictive modeling, and use of ML tools and libraries.",
+          
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+      image: require("./assets/images/USC.png"),
+      projectName: "CSCI 677 Advanced Computer Vision",
+      projectSubtitle: "Fall Semester 2018, University of Southern California",
+      projectDesc: "Developed expertise in advanced image processing, machine learning integration, computer vision algorithms, 3D vision, neural networks, and research skills in computer vision.",
+        
+    },
+    {
+      image: require("./assets/images/USC.png"),
+      projectName: "CSCI 570 Analysis of Algorithm",
+      projectSubtitle: "Spring Semester 2019, University of Southern California",
+      projectDesc: "Gained proficiency in algorithm design and analysis, complexity analysis, problem-solving, data structures, critical thinking, and mathematical skills."
+        
+    },
+    {
+      image: require("./assets/images/USC.png"),
+      projectName: "CSCI 699 Mathematical Tools in Theoretical Machine Learning",
+      projectSubtitle: "Fall Semester 2019, University of Southern California",
+      projectDesc: "Acquired knowledge in theoretical ML foundations, advanced statistical methods, \
+       optimization algorithms, mathematical modeling, algorithmic complexity, and research methodology.",
+      
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -246,56 +295,72 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji(" Publications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    " Publications, Dissertation, Research Reports,Thesis",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "RANSAC-based semi-supervised learning algorithms for partially \
+      labeled data, with application to neurological screening from \
+      eye-tracking data",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Created 101 Image Datasets with Diverse Topics.",
+      image: require("./assets/images/dissertation_image.png"
+      ),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Dissertation",
+          url:"https://drive.google.com/file/d/1oTa0MRq9ZyUZ988Gsowyy6vieWmaVoxV/view?usp=drive_link"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Lightweight Learner for Shared Knowledge Lifelong Learning",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Created 101 Image Datasets with Diverse Topics.",
+      image: require("./assets/images/LifeLongLearning.png"
+      ),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Publication",
+          url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=d8wWX90AAAAJ&citation_for_view=d8wWX90AAAAJ:u-x6o8ySG0sC"
+        },
+      ]
+    },
+    {
+      title: "USC-DCT: A Collection of Diverse Classification Tasks",
+      subtitle:
+        "Created 101 Image Datasets with Diverse Topics.",
+      image: require("./assets/images/USC-DCT.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Publication",
+          url: "https://www.mdpi.com/2306-5729/8/10/153"
+        },
+        {
+          name: "Github",
+          url: "https://github.com/iLab-USC/USC-DCT"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Application of Domain Feature Disentanglement to Map Registration Problem",
+      subtitle: "CSCI-699 Advanced Deep Learning Final Project: ",
+      image: require("./assets/images/CSCI699.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://www.researchgate.net/profile/Pohsuan-Huang/publication/372311710_Application_of_Domain_Feature_Disentanglement_to_Map_Registration_Problem/links/64af519a8de7ed28ba93c6da/Application-of-Domain-Feature-Disentanglement-to-Map-Registration-Problem.pdf"
+        },
+        {
+          name: "Opensource GitHub",
+          url: "TBD"
         }
       ]
     }
@@ -324,54 +389,16 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
-// Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
-};
-
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  email_address: "pohsuanh@usc.edu"
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -389,9 +416,6 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
-  twitterDetails,
   isHireable
 };

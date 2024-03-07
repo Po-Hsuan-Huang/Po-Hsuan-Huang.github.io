@@ -32,6 +32,7 @@ export default function StartupProject() {
             {bigProjects.subtitle}
           </p>
 
+
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {
               return (
@@ -39,8 +40,8 @@ export default function StartupProject() {
                   key={i}
                   className={
                     isDark
-                      ? "dark-mode project-card project-card-dark"
-                      : "project-card project-card-light"
+                      ? "dark-mode project-card "
+                      : "project-card "
                   }
                 >
                   {project.image ? (
@@ -60,7 +61,18 @@ export default function StartupProject() {
                     </h5>
                     <p
                       className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                        isDark 
+                         ? "dark-mode project-subtitle "
+                         : "project-subtitle-light "
+                      }
+                    >
+                      {project.projectSubtitle}
+                    </p>
+                    <p
+                      className={
+                        isDark
+                         ? "dark-mode project-subtitle"
+                         : "project-subtitle"
                       }
                     >
                       {project.projectDesc}
