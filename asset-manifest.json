@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7c5a4fa.css",
-    "main.js": "/static/js/main.4361f731.js",
+    "main.css": "/static/css/main.931c92c6.css",
+    "main.js": "/static/js/main.7eb9dc46.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.a936cfa8.chunk.js": "/static/js/64.a936cfa8.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -9,6 +9,7 @@
     "static/media/webpage_profile_photo_catalina.jpg": "/static/media/webpage_profile_photo_catalina.db329b368db8c1c06267.jpg",
     "static/media/segmentation_project_image.png": "/static/media/segmentation_project_image.b7649b62fa1f317993bb.png",
     "static/media/project_demo_image.png": "/static/media/project_demo_image.3f953d0e839d77db198c.png",
+    "static/media/tool_overview.png": "/static/media/tool_overview.8783fe57cb9dfe45bb24.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/dissertation_image.png": "/static/media/dissertation_image.a2e02b508a7db0c660b3.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -21,15 +22,15 @@
     "static/media/NTHU.png": "/static/media/NTHU.95606aebbd068f85a33e.png",
     "static/media/academia_sinica.png": "/static/media/academia_sinica.c7cb33b58084f730e1ee.png",
     "index.html": "/index.html",
-    "main.f7c5a4fa.css.map": "/static/css/main.f7c5a4fa.css.map",
-    "main.4361f731.js.map": "/static/js/main.4361f731.js.map",
+    "main.931c92c6.css.map": "/static/css/main.931c92c6.css.map",
+    "main.7eb9dc46.js.map": "/static/js/main.7eb9dc46.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.a936cfa8.chunk.js.map": "/static/js/64.a936cfa8.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
     "769.48d8d0ee.chunk.js.map": "/static/js/769.48d8d0ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7c5a4fa.css",
-    "static/js/main.4361f731.js"
+    "static/css/main.931c92c6.css",
+    "static/js/main.7eb9dc46.js"
   ]
 }
