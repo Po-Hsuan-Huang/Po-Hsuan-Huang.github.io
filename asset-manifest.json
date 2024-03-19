@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.931c92c6.css",
-    "main.js": "/static/js/main.7eb9dc46.js",
+    "main.js": "/static/js/main.10436d84.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.a936cfa8.chunk.js": "/static/js/64.a936cfa8.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -23,7 +23,7 @@
     "static/media/academia_sinica.png": "/static/media/academia_sinica.c7cb33b58084f730e1ee.png",
     "index.html": "/index.html",
     "main.931c92c6.css.map": "/static/css/main.931c92c6.css.map",
-    "main.7eb9dc46.js.map": "/static/js/main.7eb9dc46.js.map",
+    "main.10436d84.js.map": "/static/js/main.10436d84.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.a936cfa8.chunk.js.map": "/static/js/64.a936cfa8.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.931c92c6.css",
-    "static/js/main.7eb9dc46.js"
+    "static/js/main.10436d84.js"
   ]
 }
